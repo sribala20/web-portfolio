@@ -31,4 +31,25 @@ export const projects = [
     image: "./project-4.gif",
     link: "https://pythonbootcamp.com",
   },
-];
+] 
+
+export const skills = [
+  {
+    skill: "React"
+  },
+  {
+    skill: "JS"
+  },
+  {
+    skill: "Node"
+  },
+]
+
+export const testimonials = [
+    {
+      quote: "Testing if this works lol",
+      image: "",
+      name: "Sri Bala",
+      company: "Cisco"
+    }
+]
