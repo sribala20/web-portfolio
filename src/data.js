@@ -29,23 +29,18 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-4.gif",
-    link: "https://pythonbootcamp.com",
-  },
-] 
+    link: "https://pythonbootcamp.com"
+  }
+];
 
-export const skills = [
-  {
-    skill: "React"
-  },
-  {
-    skill: "JS"
-  },
-  {
-    skill: "Node"
-  },
-]
-
+export const skills = ["React", "JS", "Node"]
 export const testimonials = [
+    {
+      quote: "Testing if this works lol",
+      image: "",
+      name: "Sri Bala",
+      company: "Cisco"
+    } ,
     {
       quote: "Testing if this works lol",
       image: "",
