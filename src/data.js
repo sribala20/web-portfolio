@@ -1,60 +1,82 @@
+import React from "react";
+import { Link } from 'react-router-dom';
+
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Virtual World",
+    subtitle: "Language: Java",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "Refactored a codebase to align with object-oriented principles, programmed new entities, and optimized a pathing algorithm",
+    image: "./vw.gif",
+    link: "https://github.com/sribala20/virtual-world",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Http Server",
+    subtitle: "Language: C",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "Programmed a simplified http server to interact with a client (i.e telnet), handle requests, and throw error codes",
+    image: "./http.gif",
+    link: "https://github.com/cp-cs-projects/http-server",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "File System Simulator",
+    subtitle: "Language: C",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+    "Implemented several linux commands to navigate through a simulated file system with files and directories",
+    image: "./file.gif",
+    link: "https://github.com/cp-cs-projects/file-system",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "IoT Capstone Project",
+    subtitle: "Cisco High Externship",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
-  },
+      "Awarded first place for most thorough solution to foster student well-being using Cisco networking and IoT technologies",
+    image: "./cisco.png",
+    link: "/image"
+  }
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
-  },
-];
+// export const designs = [
+//   {
+//     title: "PolyRatings",
+//     subtitle: "UX Redesign Project",
+//     description:
+//       "6-month project etc",
+//     image: "./vw.gif",
+//     link: "/image",
+//   },
+//   {
+//     title: "South Bay Naturals",
+//     subtitle: "Branding, Can Labels etc",
+//     description:
+//       "Programmed a simplified http server to interact with a client (i.e telnet), handle requests, and throw error codes",
+//     image: "./http.gif",
+//     link: "https://github.com/cp-cs-projects/http-server",
+//   },
+//   {
+//     title: "File System Simulator",
+//     subtitle: "Language: C",
+//     description:
+//     "Implemented several linux commands to navigate through a simulated file system with files and directories",
+//     image: "./file.gif",
+//     link: "https://github.com/cp-cs-projects/file-system",
+//   },
+//   {
+//     title: "IoT Capstone Project",
+//     subtitle: "Cisco High Externship",
+//     description:
+//       "Awarded first place for most thorough solution to foster student well-being using Cisco networking and IoT technologies",
+//     image: "./cisco.png",
+//     link: "/image"
+//   }
+// ];
 
 export const skills = [
+  "Python",
+  "Java",
+  "C",
   "JavaScript",
   "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "Cypress",
+  "Git",
 ];
