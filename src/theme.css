@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/public/inter/Inter-Regular.ttf') format('ttf');
+    /* Add more font formats if necessary */
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style: thin;
+    font-weight: 100; 
+    src: url('/public/inter/Inter-Thin.ttf') format('ttf');
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style: semibold;
+    font-weight: 600; /* Bold */
+    src: url('/public/inter/Inter-SemiBold.ttf') format('ttf');
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style: medium;
+    font-weight: 500; /* Bold Italic */
+    src: url('/public/inter/Inter-Medium.ttf') format('ttf');
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    font-style: light;
+    font-weight: 300; /* Bold Italic */
+    src: url('/public/inter/Inter-Light.ttf') format('ttf');
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style: extralight;
+    font-weight: 200; /* Bold Italic */
+    src: url('/public/inter/Inter-ExtraLight.ttf') format('ttf');
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style: extrabold;
+    font-weight: 800; /* Bold Italic */
+    src: url('/public/inter/Inter-ExtraBold.ttf') format('ttf');
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    font-style: bold;
+    font-weight: 700; /* Bold Italic */
+    src: url('/public/inter/Inter-Bold.ttf') format('ttf');
+  }
+
+  @font-face {
+    font-family: 'IBM Plex Serif';
+    src: url('/public/IBM_Plex_Serif/IBMPlexSerif-SemiBold.ttf') format('ttf');
+    /* Add more font formats if necessary */
+    font-weight: 600;
+    font-style: semibold;
+  }
+
+  /* tailwind.css */
+  .thin {
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+  }
+  
+  .extra-light {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+  }
+  
+  .light {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+  }
+  
+  .normal {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.medium {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.semibold {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.semibold {
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 600;
+}
+
+.bold {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.extra-bold {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+}
+
+.bg-navy {
+  background-color:#041536;
+}
+
+.bg-lilac {
+  background-color:#B7A0EC;
+}
+/* 
+.bg-verm {
+  background-color:#de522d;
+}
+
+.bg-limon {
+  background-color:#cacd35;
+}
+.bg-ivory {
+  background-color:#d7d2cb;
+}
+
+.text-prune {
+  color:#28002c;
+}
+
+.text-navy {
+  color:#1d2058;
+}
+
+.text-forest {
+  color:#004f49;
+}
+
+.text-lilac {
+  color:#675d8a;
+}
+
+.text-verm {
+  color:#de522d;
+}
+
+.text-limon {
+  color:#cacd35;
+}
+.text-ivory {
+  color:#d7d2cb;
+} */
