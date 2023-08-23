@@ -24,12 +24,12 @@ export const projects = [
     link: "https://github.com/cp-cs-projects/file-system",
   },
   {
-    title: "IoT Capstone Project",
-    subtitle: "Cisco High Externship",
+    title: "Web Portfolio",
+    subtitle: "Language: React, Node, CSS",
     description:
-      "Awarded first place for most thorough solution to foster student well-being using Cisco networking and IoT technologies",
-    image: "./cisco.png",
-    link: "/image"
+      "Here's the code for this website :)",
+    image: "./webpage.png",
+    link: "https://github.com/sribala20/web-portfolio"
   }
 ];
 
