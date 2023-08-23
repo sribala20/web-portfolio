@@ -9,7 +9,7 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="font-medium sm:text-4xl text-3xl font-medium mb-4 text-gray-800">
-            Development and Tech Projects
+            Development
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             These are some of the coding projects I've worked on as a part of classes and for fun. Click on any of them to see the code base

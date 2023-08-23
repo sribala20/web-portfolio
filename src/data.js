@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "Language: React, Node, CSS",
     description:
       "Here's the code for this website :)",
-    image: "./webpage.png",
+    image: "./port.jpeg",
     link: "https://github.com/sribala20/web-portfolio"
   }
 ];
