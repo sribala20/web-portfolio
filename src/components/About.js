@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <section id="about" className="py-32 min-h-screen flex items-center"
+    <section id="about" className="py-32 min-h-screen flex items-center font-sans"
      style={{
         background: 'linear-gradient(180deg, #B7A0EC 0%, #f9fafb 100%)', // Blue to Pink gradient
       }}>

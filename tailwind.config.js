@@ -4,7 +4,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      'sans': ['Segoe UI','Inter'],
+      'sans': ['Helvetica Neue'],
       extend: {
         colors: {
           transparent: 'transparent',
