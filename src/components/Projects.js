@@ -12,7 +12,7 @@ export default function Projects() {
             Development
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            These are some of the coding projects I've worked on as a part of classes and for fun. Click on any of them to see the code base
+            These are some of the coding projects I've worked on as a part of classes and for fun. Click on any of them to see the codebase
             and learn more!
           </p>
         </div>

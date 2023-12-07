@@ -3,6 +3,7 @@ import React from "react";
 
 export default function Contact() {
   return (
+    <div className="theme">
     <section id="contact" className="bg-gray-50 border-b border-gray-800">
       <div className="flex justify-between p-10">
         <div className="w-1/2">
@@ -15,5 +16,6 @@ export default function Contact() {
         </div>
       </div>
     </section>
+    </div>
   );
 };
